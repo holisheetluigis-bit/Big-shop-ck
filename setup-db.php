@@ -34,7 +34,7 @@ try {
     echo "<h3>Default Admin Account</h3>";
     echo "<ul>";
     echo "<li><strong>Username:</strong> maroza</li>";
-    echo "<li><strong>Password:</strong> password30112007</li>";
+    echo "<li><strong>Password:</strong> 30112007</li>";
     echo "<li><strong>Admin URL:</strong> <a href='admin/login.php'>admin/login.php</a></li>";
     echo "</ul>";
 
