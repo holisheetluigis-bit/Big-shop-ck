@@ -90,10 +90,10 @@ CREATE TABLE IF NOT EXISTS `contact_messages` (
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
--- Default Admin Account (Username: admin, Password: admin123)
+-- Default Admin Account (Username: maroza, Password: password30112007)
 INSERT INTO `users` (`username`, `email`, `password`, `role`)
-VALUES ('admin', 'admin@ckshop.com', '$2y$10$/nBxAq./cZnyBsiHsZ77JOHm3zPsyOhjvkX.EgbVUmIkjLHqzxdH.', 'admin')
-ON DUPLICATE KEY UPDATE `password`=VALUES(`password`), `role`='admin';
+VALUES ('maroza', 'maroza@ckshop.com', '$2y$10$bLtf/4OCDpCK7o9KFIhIxelRNvTswhk8GsXLrN8VLX6e2TxXBGY7O', 'admin')
+ON DUPLICATE KEY UPDATE `username`=VALUES(`username`), `password`=VALUES(`password`), `role`='admin';
 
 -- Seed Categories
 INSERT INTO `categories` (`id`, `name`, `slug`, `icon`) VALUES

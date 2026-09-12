@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <label class="form-label small fw-bold">Username or Email</label>
                 <div class="input-group">
                     <span class="input-group-text bg-light"><i class="fas fa-user text-muted"></i></span>
-                    <input type="text" name="username" class="form-control" placeholder="admin" required autofocus>
+                    <input type="text" name="username" class="form-control" required autofocus>
                 </div>
             </div>
             <div class="mb-4">
